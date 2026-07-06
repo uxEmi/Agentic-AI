@@ -1,0 +1,7 @@
+pydantic-ai
+anthropic
+httpx
+fastapi
+uvicorn
+logfire
+python-dotenv
