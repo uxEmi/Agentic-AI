@@ -6,7 +6,7 @@ import config
 from schemas import ReviewResult, Finding
 from agents.specialists import ReviewDeps, read_file
 
-model = AnthropicModel("claude-sonnet-5")
+model = AnthropicModel(config.VERIFIER_MODEL)
 
 verifier_agent = Agent(
     model,

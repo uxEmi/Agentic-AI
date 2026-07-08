@@ -8,7 +8,7 @@ from pydantic_ai.models.anthropic import AnthropicModel
 import config
 from schemas import ReviewResult
 
-model = AnthropicModel("claude-sonnet-5")
+model = AnthropicModel(config.SPECIALIST_MODEL)
 
 
 @dataclass
